@@ -4,6 +4,11 @@ A small Go package for quickly adding a `/health` endpoint to RESTful APIs
 ### Dependencies
 - [Echo](https://labstack.com/echo)
 
+### Installation
+```
+go get github.com/jessemillar/health
+```
+
 ### Usage
 ```
 import "github.com/jessemillar/health"
