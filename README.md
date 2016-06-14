@@ -17,10 +17,10 @@ import "github.com/jessemillar/health"
 ```
 func main() {
   port := ":8000"
-  e := echo.New()
+  router := echo.New()
 
-  e.Get("/health", health.Check)
+  router.Get("/health", health.Check)
 
-  e.Run(fasthttp.New(port))
+  router.Run(fasthttp.New(port))
 }
 ```
