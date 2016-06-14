@@ -1,15 +1,15 @@
 # health-check
 A small Go package for quickly adding a `/health` endpoint to RESTful APIs
 
-### Dependencies
+## Dependencies
 - [Echo](https://labstack.com/echo)
 
-### Installation
+## Installation
 ```
 go get github.com/jessemillar/health
 ```
 
-### Usage
+## Usage
 ```
 import "github.com/jessemillar/health"
 ```
